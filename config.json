@@ -1,0 +1,15 @@
+{
+    "theme": "绿色主题",
+    "programs": [
+        {
+            "name": "QQ.exe",
+            "path": "D:/QQNT/QQ.exe"
+        },
+        {
+            "name": "navicat.exe",
+            "path": "D:/Navicat Premium 16/navicat.exe"
+        }
+    ],
+    "weather_visible": true,
+    "weather_api_key": "123123123"
+}

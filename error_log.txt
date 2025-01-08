@@ -1,0 +1,23 @@
+错误信息：
+'NoneType' object has no attribute 'save_config'
+
+详细堆栈：
+Traceback (most recent call last):
+  File "d:\PythonProject\NM\main.py", line 28, in main
+    app = App()
+          ^^^^^
+  File "d:\PythonProject\NM\gui\app.py", line 12, in __init__
+    self.window = MainWindow(icon_path)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\PythonProject\NM\gui\main_frame.py", line 88, in __init__
+    self.weather_widget = WeatherWidget()
+                          ^^^^^^^^^^^^^^^
+  File "d:\PythonProject\NM\gui\weather_widget.py", line 103, in __init__
+    self.update_weather_info()
+  File "d:\PythonProject\NM\gui\weather_widget.py", line 217, in update_weather_info
+    if not self.check_api_key():
+           ^^^^^^^^^^^^^^^^^^^^
+  File "d:\PythonProject\NM\gui\weather_widget.py", line 210, in check_api_key
+    self.parent().save_config()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'save_config'

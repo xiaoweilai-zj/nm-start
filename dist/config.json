@@ -1,0 +1,11 @@
+{
+    "theme": "默认主题",
+    "programs": [
+        {
+            "name": "Code.exe",
+            "path": "D:/Microsoft VS Code/Code.exe"
+        }
+    ],
+    "weather_visible": false,
+    "weather_api_key": null
+}
